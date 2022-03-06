@@ -138,8 +138,11 @@ function requestVoiceList() {
 
 		// Request voice list from FakeYou API
 		const response = await fetchPatiently("https://api.fakeyou.com/tts/list", {
-			"Authorization": fakeYouToken,
-			"Accept": "application/json"
+			method: "GET",
+			headers: {
+				"Authorization": fakeYouToken,
+				"Accept": "application/json"
+			}
 		}).catch(reject);
 		if (!response.ok) return;
 

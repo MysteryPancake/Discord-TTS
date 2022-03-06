@@ -49,7 +49,7 @@ module.exports = {
 
 		let voiceList = await getVoiceList();
 		if (!voiceList) {
-			interaction.reply(`Could not get voice list!`).catch(console.error);
+			interaction.reply("Failed to get voice list!").catch(console.error);
 			return;
 		}
 		voiceList = Object.entries(voiceList);

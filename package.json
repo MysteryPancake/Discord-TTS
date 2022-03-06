@@ -1,0 +1,45 @@
+{
+  "name": "Discord-TTS",
+  "version": "1.0.0",
+  "description": "Text to speech Discord bot using FakeYou.",
+  "main": "./ttsbot.js",
+  "engines": {
+    "node": ">=16.9.0",
+    "npm": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./ttsbot.js"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord-js",
+    "discord-api",
+    "discordjs",
+    "discordjs-bot",
+    "javascript",
+    "discordjsbot",
+    "discordapp",
+    "discordbot",
+    "nodejs-bot",
+    "nodejs",
+    "node-js",
+    "bot",
+    "tts",
+    "text-to-speech",
+    "fakeyou",
+    "wavenet",
+    "tacotron"
+  ],
+  "author": "MysteryPancake",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "@discordjs/rest": "^0.3.0",
+    "@discordjs/voice": "^0.8.0",
+    "discord-api-types": "^0.27.3",
+    "discord.js": "^13.6.0",
+    "node-fetch": "^2.6.7"
+  }
+}

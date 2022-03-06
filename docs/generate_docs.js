@@ -3,7 +3,7 @@
 const { writeFileSync } = require("fs");
 const fetch = require("node-fetch");
 
-const voiceList = Object.entries(require("../src/voicelist.json"));
+const { getVoiceList } = require("../src/shared/fakeyou.js");
 
 /*
   Name: formatModel(Array model): String
@@ -60,6 +60,11 @@ function formatCategory(category, currentDepth) {
 			parentCategories.push(category);
 		}
 	});
+
+	// Retrieve voice list
+	let voiceList = await getVoiceList();
+	if (!voiceList) return;
+	voiceList = Object.entries(voiceList);
 
 	// Store voice models within their appropriate categories
 	const uncategorized = [];

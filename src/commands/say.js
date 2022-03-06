@@ -8,8 +8,7 @@ const { promisify } = require("util");
 const { unlink } = require("fs");
 const fetch = require("node-fetch");
 
-const { requestSpeech } = require("../shared/fakeyou.js");
-const voiceList = require("../voicelist.json");
+const { requestSpeech, getVoiceList } = require("../shared/fakeyou.js");
 
 /*
   Name: requestSpeechFile(String voice, String message): String
@@ -61,6 +60,12 @@ module.exports = {
 		const message = interaction.options.getString("message");
 		if (!voice || !message) {
 			interaction.reply("Both `voice` and `message` are required!").catch(console.error);
+			return;
+		}
+
+		const voiceList = await getVoiceList();
+		if (!voiceList) {
+			interaction.reply(`Could not get voice list!`).catch(console.error);
 			return;
 		}
 

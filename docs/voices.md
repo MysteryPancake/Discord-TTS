@@ -883,20 +883,6 @@
 - `sir-mix-a-lot`: Sir Mix-A-Lot
 - `slippy-toad`: Slippy Toad (Star Fox 64, Lyssa Browne)
 
-### PaRappa The Rapper
-- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
-- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
-- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
-- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
-- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
-- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
-- `hairdresser-octopus`: Hairdresser Octopus (PaRappa The Rapper, Freedom Bremner)
-- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
-- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
-- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
-- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
-- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
-
 ### Playstation
 - `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
 - `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
@@ -912,6 +898,20 @@
 - `planetside-2-female`: PlanetSide 2 Female
 - `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 - `prince-of-persia`: Prince of Persia (Yuri Lowenthal)
+
+### PaRappa The Rapper
+- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
+- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
+- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
+- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
+- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
+- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
+- `hairdresser-octopus`: Hairdresser Octopus (PaRappa The Rapper, Freedom Bremner)
+- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
+- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
+- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
+- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
+- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 
 ### Fallout
 - `caesar`: Caesar (Fallout: New Vegas)
@@ -1351,11 +1351,11 @@
 ### New Wave
 - `david-byrne`: David Byrne
 
-### Rhythm & Blues
+### Pop Music 
 - `drake`: Drake
 - `the-weeknd`: The Weeknd
 
-### Pop Music 
+### Rhythm & Blues
 - `drake`: Drake
 - `the-weeknd`: The Weeknd
 
@@ -1749,7 +1749,6 @@
 - `millibot-281-594-itterations`: Millibot-281 594 itterations
 - `millibot-281-792-itterations`: MilliBot-281 792 itterations
 - `millibot-281-999-itterations`: MilliBot-281 999 Itterations
-- `russianttstest`: RussianTTStest
 
 ## Uncategorized
 - `akai-hoshi`: Akai Hoshi (Suicide For Him)
@@ -1895,6 +1894,7 @@
 - `patti-smith`: Patti Smith
 - `paul-anka`: Paul Anka
 - `pedro-aznar`: Pedro Aznar
+- `pepper-ann`: Pepper Ann (Kathleen Wilhoite)
 - `phoenix`: Phoenix (Counter Strike Global Offensive)
 - `pinstripe-potoroo`: Pinstripe Potoroo (CTR, Brendan O'Brien)
 - `pixelartbuilder583`: PixelArtBuilder583

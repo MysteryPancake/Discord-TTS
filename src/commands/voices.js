@@ -3,11 +3,10 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
 const { MessageActionRow, MessageButton, MessageEmbed } = require("discord.js");
 
+const { getVoiceList } = require("../shared/fakeyou.js");
 const maxPerPage = 25;
-const voiceList = Object.entries(require("../voicelist.json"));
-const pageCount = Math.ceil(voiceList.length / maxPerPage);
 
-function generateEmbed(user, page) {
+function generateEmbed(voiceList, user, page, pageCount) {
 
 	const embed = new MessageEmbed()
 		.setColor("#209CEE")
@@ -27,7 +26,7 @@ function generateEmbed(user, page) {
 	return embed;
 }
 
-function generateButtons(page) {
+function generateButtons(page, pageCount) {
 	return new MessageActionRow().addComponents([
 		new MessageButton()
 			.setCustomId("prev")
@@ -48,11 +47,23 @@ module.exports = {
 		.setDescription("Lists all available voices."),
 	async execute(interaction) {
 
+		let voiceList = await getVoiceList();
+		if (!voiceList) {
+			interaction.reply(`Could not get voice list!`).catch(console.error);
+			return;
+		}
+		voiceList = Object.entries(voiceList);
+
 		let page = 0;
+		const pageCount = Math.ceil(voiceList.length / maxPerPage);
 		
 		const message = await interaction.reply({
-			embeds: [generateEmbed(interaction.client.user, page)],
-			components: [generateButtons(page)],
+			embeds: [
+				generateEmbed(voiceList, interaction.client.user, page, pageCount)
+			],
+			components: [
+				generateButtons(page, pageCount)
+			],
 			fetchReply: true,
 			ephemeral: true
 		}).catch(console.error);
@@ -65,8 +76,12 @@ module.exports = {
 			page = Math.min(Math.max(page, 0), pageCount - 1);
 			// Update embed and buttons
 			interact.update({
-				embeds: [generateEmbed(interaction.client.user, page)],
-				components: [generateButtons(page)]
+				embeds: [
+					generateEmbed(voiceList, interaction.client.user, page, pageCount)
+				],
+				components: [
+					generateButtons(page, pageCount)
+				]
 			});
 		});
 	}

@@ -35,7 +35,7 @@ module.exports = {
 
 		const voiceInfo = voiceList[voice];
 		if (!voiceInfo) {
-			interaction.reply(`No voice named \`${voice}\`!\nUse \`/voices\` to list available voices.\n\nMessage was \"${message}\"`).catch(console.error);
+			interaction.reply(`No voice named \`${voice}\`! Use \`/voices\` to list available voices.\n\nMessage was \"${message}\"`).catch(console.error);
 			return;
 		}
 

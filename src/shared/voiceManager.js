@@ -23,7 +23,7 @@ module.exports.joinVoice = (interaction) => {
 
 	entersState(connection, VoiceConnectionStatus.Ready, 5000).then(() => {
 
-		interaction.reply("Joined voice! Use `/sayvc` to make me speak!").catch(console.error);
+		interaction.reply("Joined voice! Use `/ttsvc` to make me speak!").catch(console.error);
 		updateStatus(interaction.client);
 
 		if (!audioPlayers.has(interaction.guildId)) {

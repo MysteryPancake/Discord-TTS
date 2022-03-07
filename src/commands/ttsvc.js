@@ -8,7 +8,7 @@ const { playVoice } = require("../shared/voiceManager.js");
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName("sayvc")
+		.setName("ttsvc")
 		.setDescription("Generates speech using FakeYou, spoken through voice chat.")
 		.addStringOption(option =>
 			option.setName("voice")

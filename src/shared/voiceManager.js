@@ -67,13 +67,13 @@ module.exports.playVoice = async(interaction, voiceInfo, message) => {
 
 	const connection = getVoiceConnection(interaction.guildId);
 	if (!connection) {
-		interaction.reply("I'm not connected to a voice channel! Use `/join` to join.").catch(console.error);
+		interaction.reply(`I'm not connected to a voice channel! Use \`/join\` to join.\n\nMessage was \"${message}\"`).catch(console.error);
 		return;
 	}
 
 	const player = audioPlayers.get(interaction.guildId);
 	if (!player) {
-		interaction.reply("No audio player available!").catch(console.error);
+		interaction.reply(`No audio player available!\n\nMessage was \"${message}\"`).catch(console.error);
 		return;
 	}
 

@@ -23,7 +23,7 @@ module.exports.joinVoice = (interaction) => {
 
 	entersState(connection, VoiceConnectionStatus.Ready, 5000).then(() => {
 
-		interaction.reply("Joined voice! Use `/ttsvc` to make me speak!").catch(console.error);
+		interaction.reply("Joined voice channel! Use `/ttsvc` to make me speak!").catch(console.error);
 		updateStatus(interaction.client);
 
 		if (!audioPlayers.has(interaction.guildId)) {
@@ -55,7 +55,7 @@ module.exports.leaveVoice = (interaction) => {
 	connection.destroy();
 	audioPlayers.delete(interaction.guildId);
 	updateStatus(interaction.client);
-	interaction.reply("Left voice! See you later!").catch(console.error);
+	interaction.reply("Left voice channel! See you later!").catch(console.error);
 }
 
 /*
@@ -82,19 +82,19 @@ module.exports.playVoice = async(interaction, voiceInfo, message) => {
 	// Launch speech request and poll until completion
 	requestSpeech(voiceInfo.id, message).then(url => {
 
-		interaction.editReply(`Playing speech from \`${voiceInfo.name}\`!`).catch(console.error);
+		interaction.editReply(`\`${voiceInfo.name}\` says \"${message}\"`).catch(console.error);
 		const resource = createAudioResource(url, {
 			inputType: StreamType.Raw
 		});
 		player.play(resource);
 
 		resource.playStream.on("error", error => {
-			interaction.editReply(`Failed to play speech! Here's the link instead:\n${url}`).catch(console.error);
+			interaction.editReply(`Failed to play speech! Here's the link instead:\n${url}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 
 	}).catch(error => {
-		interaction.editReply(error).catch(console.error);
+		interaction.editReply(`${error}\n\nMessage was \"${message}\"`).catch(console.error);
 		console.error(error);
 	});
 }

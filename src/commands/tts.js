@@ -65,13 +65,13 @@ module.exports = {
 
 		const voiceList = await getVoiceList();
 		if (!voiceList) {
-			interaction.reply("Failed to get voice list!").catch(console.error);
+			interaction.reply(`Failed to get voice list!\n\nMessage was \"${message}\"`).catch(console.error);
 			return;
 		}
 
 		const voiceInfo = voiceList[voice];
 		if (!voiceInfo) {
-			interaction.reply(`No voice named \`${voice}\`!\n\nUse \`/voices\` to list all available voices.`).catch(console.error);
+			interaction.reply(`No voice named \`${voice}\`!\nUse \`/voices\` to list available voices.\n\nMessage was \"${message}\"`).catch(console.error);
 			return;
 		}
 
@@ -80,6 +80,7 @@ module.exports = {
 
 			// Send temporary file as message attachment
 			await interaction.editReply({
+				content: `\`${voiceInfo.name}\` says \"${message}\"`,
 				files: [{
 					attachment: filePath,
 					name: `${message.replace(/\W/g, "_")}.wav`
@@ -93,7 +94,7 @@ module.exports = {
 			});
 
 		}).catch(error => {
-			interaction.editReply(error).catch(console.error);
+			interaction.editReply(`${error}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 	}

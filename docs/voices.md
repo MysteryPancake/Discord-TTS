@@ -14,6 +14,7 @@
 - `dbznarratorfuni`: DBZ Narrator
 - `dbzwta`: World Tournament Announcer
 - `friezachris`: Frieza (Chris Ayres)
+- `friezalatin`: Frieza (Gerardo Reyero)
 - `friezalinda`: Frieza (Linda Young)
 - `friezapauline`: Frieza (Pauline Newstone)
 - `future-trunks`: Future Trunks (Modern)
@@ -127,7 +128,6 @@
 - `belle`: Belle (Beauty and the Beast, Paige O'Hara)
 - `captain-jack-sparrow`: Captain Jack Sparrow (Jared Butler)
 - `chiro`: Chiro (Greg Cipes)
-- `cricket-green`: Cricket Green (Big City Greens) (Chris Houghton)
 - `elsa`: Elsa (Frozen)
 - `ghost-host`: Ghost Host [Paul Frees] from "The Haunted Mansion"
 - `grandmother-fa`: Grandmother Fa (Mulan, June Foray)
@@ -139,11 +139,11 @@
 - `mulan`: Mulan (Mulan, Ming-Na Wen)
 - `olaf`: Olaf (Frozen) (Josh Gad)
 - `olie-polie`: Olie Polie (Rolie Polie Olie)
+- `pepper-ann`: Pepper Ann (Kathleen Wilhoite)
 - `pumbaa`: Pumbaa (The Lion King, Ernie Sabella)
 - `rafiki`: Rafiki (The Lion King, Robert Guillaume)
 - `scar`: Scar
 - `snow-white`: Snow White (Disney, Mary Kay Bergman)
-- `tilly-green`: Tilly Green (Big City Greens) (Marieve Herington)
 
 ### Madagascar
 - `alex-the-lion`: Alex the Lion - Ben Stiller - Madagascar
@@ -455,6 +455,10 @@
 - `nancy-gribble`: Nancy Gribble
 - `peggy-hill`: Peggy Hill
 
+### Big City Greens
+- `cricket-green`: Cricket Green (Big City Greens) (Chris Houghton)
+- `tilly-green`: Tilly Green (Big City Greens) (Marieve Herington)
+
 ### Dan Vs.
 - `dan`: Dan (Dan VS.)
 
@@ -520,6 +524,7 @@
 ### Pixar
 - `helen-parr`: Helen Parr (The Incredibles, Holly Hunter)
 - `lightning-mcqueen`: Lightning McQueen (Cars, Owen Wilson)
+- `pepper-ann`: Pepper Ann (Kathleen Wilhoite)
 - `sadness`: Sadness (Disney Infinity)
 - `tow-mater`: Tow Mater (Cars, Larry the Cable Guy)
 
@@ -637,9 +642,11 @@
 - `drake0es`: Drake Bell (Drake and Josh, Latin American Spanish)
 - `el-chavo-del-8-animado`: El Chavo del 8 animado (Latin American Spanish)
 - `fernanfloo`: Fernanfloo (Fernando Flores, Youtubers)
+- `friezalatin`: Frieza (Gerardo Reyero)
 - `glados0es`: GLaDOS (Portal, Castillian Spanish)
 - `gokulatin`: Son Goku (Mario Castañeda)
 - `homero-simpson`: Homero Simpson (Homer Simpson Latin American Spanish)
+- `homero-simpson2`: Homero Simpson (Voz de la 4 temporada (Humberto Velez) Beta1
 - `jordi-cruz`: Jordi Cruz (Castillian Spanish, ARPAbet support)
 - `jordi-wild`: Jordi Wild (El Rincón de Giorgio)
 - `narrador`: Narrador (Latin American Spanish)
@@ -708,6 +715,19 @@
 - `black-mesa-scientist`: Black Mesa scientist (Walter) (Voiced by: Harry S. Robins)
 - `dr-rosenberg`: Dr. Rosenberg (Half-Life) (voiced by Jon St. John)
 - `transit-system`: Transit System (No Reverb/Noise) (Half Life) (Kathy Levin)
+
+### Grand Theft Auto
+- `amanda-de-santa`: Amanda De Santa (Voiced by: Vicki van Tassel)
+- `ballas`: Ballas (gang member #1) (Grand Theft Auto San Andreas) (ARPAbet support)
+- `big-smoke`: Big Smoke
+- `big-smoke2`: Big Smoke (8-Bit) (Grand Theft Auto San Andreas) (Clifton Powell)
+- `carl-johnson`: Carl Johnson (GTA San Andreas) (Young Maylay)
+- `indian-shopkeeper`: Indian Shopkeeper (Grand Theft Auto V)
+- `niko-bellic`: Niko Bellic (Grand Theft Auto IV) (Michael Hollick)
+- `patrick-mcreary`: Patrick McReary (Grand Theft Auto IV) (Ryan Johnston)
+- `patrick-mcreary2`: Patrick McReary (Grand Theft Auto IV) (Ryan Johnston)
+- `tonya-wiggins`: Tonya Wiggins (Voiced by: Brianna Colette)
+- `trevor-philips`: Trevor Philips
 
 ### Sonic
 - `amyrosecindy`: Amy Rose (Cindy Robinson)
@@ -853,24 +873,22 @@
 - `ivern`: Ivern (Brazilian Portuguese)
 - `league-of-legends-announcer`: League of Legends Announcer
 
-### Grand Theft Auto
-- `ballas`: Ballas (gang member #1) (Grand Theft Auto San Andreas) (ARPAbet support)
-- `big-smoke`: Big Smoke
-- `big-smoke2`: Big Smoke (8-Bit) (Grand Theft Auto San Andreas) (Clifton Powell)
-- `carl-johnson`: Carl Johnson (GTA San Andreas) (Young Maylay)
-- `indian-shopkeeper`: Indian Shopkeeper (Grand Theft Auto V)
-- `niko-bellic`: Niko Bellic (Grand Theft Auto IV) (Michael Hollick)
-- `patrick-mcreary`: Patrick McReary (Grand Theft Auto IV) (Ryan Johnston)
-- `patrick-mcreary2`: Patrick McReary (Grand Theft Auto IV) (Ryan Johnston)
-- `tonya-wiggins`: Tonya Wiggins (Voiced by: Brianna Colette)
-- `trevor-philips`: Trevor Philips
-
 ### HuniePop
 - `beli`: Beli (HuniePop) (Trained by VocaZone)
 - `jessie`: Jessie (HuniePop) (Trained by VocaZone)
 - `kyu-sugardust`: Kyu Sugardust (HuniePop) (Trained by VocaZone)
 - `lola`: Lola (HuniePop 2) (Trained by VocaZone)
 - `lola-from-huniepop`: lola from huniepop
+
+### The Walking Dead (Video Game)
+- `ben-paul`: Ben Paul (Trevor Hoffman, The Walking Dead Season 1)
+- `christa`: Christa (Mara Junot, The Walking Dead Season One)
+- `clementine`: Clementine (The Walking Dead) (Melissa Hutchison)
+- `clementine2`: Clementine (The Walking Dead: Season 1)
+- `clementine3`: Clementine (The Walking Dead: Season 2)
+- `kenny`: Kenny (Gavin Hammon, The Walking Dead Season 1)
+- `lee-everett`: Lee Everett (Dave Fennoy, The Walking Dead Season One)
+- `lilly-caul`: Lilly Caul (Nikki Rapp, The Walking Dead Season One)
 
 ### Star Fox
 - `bill-grey`: Bill Grey (Star Fox 64, Jock Blaney)
@@ -882,6 +900,20 @@
 - `rob-64`: ROB 64 (Star Fox 64, David Frederick White)
 - `sir-mix-a-lot`: Sir Mix-A-Lot
 - `slippy-toad`: Slippy Toad (Star Fox 64, Lyssa Browne)
+
+### PaRappa The Rapper
+- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
+- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
+- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
+- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
+- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
+- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
+- `hairdresser-octopus`: Hairdresser Octopus (PaRappa The Rapper, Freedom Bremner)
+- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
+- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
+- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
+- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
+- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 
 ### Playstation
 - `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
@@ -898,20 +930,6 @@
 - `planetside-2-female`: PlanetSide 2 Female
 - `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 - `prince-of-persia`: Prince of Persia (Yuri Lowenthal)
-
-### PaRappa The Rapper
-- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
-- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
-- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
-- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
-- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
-- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
-- `hairdresser-octopus`: Hairdresser Octopus (PaRappa The Rapper, Freedom Bremner)
-- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
-- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
-- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
-- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
-- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 
 ### Fallout
 - `caesar`: Caesar (Fallout: New Vegas)
@@ -971,15 +989,6 @@
 - `chris-redfield`: Chris Redfield (Roger Craig Smith)
 - `jack-baker`: Jack Baker (Resident Evil)
 - `marguerite-baker`: Marguerite Baker (Resident Evil)
-
-### The Walking Dead (Video Game)
-- `christa`: Christa (Mara Junot, The Walking Dead Season One)
-- `clementine`: Clementine (The Walking Dead) (Melissa Hutchison)
-- `clementine2`: Clementine (The Walking Dead: Season 1)
-- `clementine3`: Clementine (The Walking Dead: Season 2)
-- `kenny`: Kenny (Gavin Hammon, The Walking Dead Season 1)
-- `lee-everett`: Lee Everett (Dave Fennoy, The Walking Dead Season One)
-- `lilly-caul`: Lilly Caul (Nikki Rapp, The Walking Dead Season One)
 
 ### Friday Night Funkin’
 - `cj`: CJ (TheMaskedChris)
@@ -1282,6 +1291,7 @@
 - `lego-city-commercial-announcer`: Lego City Commercial Announcer (dataset by COOLphonix)
 - `michael-rosen`: Michael Rosen
 - `michael-rosen2`: Michael Rosen (calm)
+- `protegent`: Protegent (3D ad) (dataset by COOLphonix)
 - `wilford-brimley`: Wilford Brimley
 
 ## Movies
@@ -1351,16 +1361,13 @@
 ### New Wave
 - `david-byrne`: David Byrne
 
-### Pop Music 
-- `drake`: Drake
-- `the-weeknd`: The Weeknd
-
 ### Rhythm & Blues
 - `drake`: Drake
 - `the-weeknd`: The Weeknd
 
-### Jazz
-- `franksinatra`: Frank Sinatra
+### Pop Music 
+- `drake`: Drake
+- `the-weeknd`: The Weeknd
 
 ### Country
 - `johnny-cash`: Johnny Cash
@@ -1369,6 +1376,9 @@
 
 ### Progressive Rock
 - `peter-gabriel`: Peter Gabriel
+
+### Jazz
+- `sinatra`: Frank Sinatra
 
 ## Our Users
 
@@ -1436,7 +1446,6 @@
 - `david-spade`: David Spade
 - `emma-watson`: Emma Watson
 - `frank-welker`: Frank Welker
-- `franksinatra`: Frank Sinatra
 - `fred-durst`: Fred Durst
 - `gene-wilder`: Gene Wilder
 - `george-takei`: George Takei
@@ -1471,6 +1480,7 @@
 - `robert-stack`: Robert Stack
 - `samuel-l-jackson`: Samuel L. Jackson
 - `shohreh-aghdashloo`: Shohreh Aghdashloo
+- `sinatra`: Frank Sinatra
 - `sylvester-stallone`: Sylvester Stallone
 - `tobey-maguire`: Tobey Maguire
 - `tobeymaguire1089`: Tobey Maguire
@@ -1831,6 +1841,7 @@
 - `helen-mirren2`: Helen Mirren (lovecraft)
 - `henry-stein-protagonist`: Henry Stein protagonist (Bendy and the Ink Machine)
 - `hiro-hamada`: Hiro Hamada (Disney Infinity)
+- `hk-47-unfiltered`: HK-47, unfiltered (Kristoffer Tabori)
 - `hoh-sis-narrator`: HOH SIS Narrator
 - `hungry-pumkin`: Hungry Pumkin
 - `inspector-gadget`: Inspector Gadget (Don Adams)
@@ -1850,6 +1861,7 @@
 - `joseph20`: Joseph2.0
 - `joy`: Joy (Disney Infinity)
 - `judy-hopps`: Judy Hopps (Disney Infinity)
+- `juhani-from-kotor`: Juhani from KoTOR (Courtenay Taylor)
 - `junpei-iori`: Junpei Iori
 - `kanan-jarrus`: Kanan Jarrus (Disney Infinity)
 - `kanye-west`: Kanye West (v1)
@@ -1894,7 +1906,6 @@
 - `patti-smith`: Patti Smith
 - `paul-anka`: Paul Anka
 - `pedro-aznar`: Pedro Aznar
-- `pepper-ann`: Pepper Ann (Kathleen Wilhoite)
 - `phoenix`: Phoenix (Counter Strike Global Offensive)
 - `pinstripe-potoroo`: Pinstripe Potoroo (CTR, Brendan O'Brien)
 - `pixelartbuilder583`: PixelArtBuilder583

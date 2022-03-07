@@ -21,7 +21,7 @@ Leaves your voice channel.
 
 Generates speech using FakeYou, sent as an attachment.
 
-`/say <voice> <message>`
+`/tts <voice> <message>`
 
 - `<voice>`: Voice model to speak with. Use `/voices` to list [all options](./docs/voices.md).
 - `<message>`: Message to speak.
@@ -30,7 +30,7 @@ Generates speech using FakeYou, sent as an attachment.
 
 Generates speech using FakeYou, spoken through voice chat.
 
-`/sayvc <voice> <message>`
+`/ttsvc <voice> <message>`
 
 - `<voice>`: Voice model to speak with. Use `/voices` to list [all options](./docs/voices.md).
 - `<message>`: Message to speak.

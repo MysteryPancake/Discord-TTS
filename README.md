@@ -5,14 +5,32 @@ Text to speech Discord bot using [FakeYou](https://fakeyou.com).
 
 Massive thanks to [@echelon](https://github.com/echelon) for supporting this project!
 
-**This bot is not yet complete, currently working on adding voice chat features.**
-
 ## Commands
+### Join
+Joins your voice channel.
+
+`/join`
+
+### Leave
+
+Leaves your voice channel.
+
+`/leave`
+
 ### Say
 
 Generates speech using FakeYou, sent as an attachment.
 
 `/say <voice> <message>`
+
+- `<voice>`: Voice model to speak with. Use `/voices` to list [all options](./docs/voices.md).
+- `<message>`: Message to speak.
+
+### Say (voice chat)
+
+Generates speech using FakeYou, spoken through voice chat.
+
+`/sayvc <voice> <message>`
 
 - `<voice>`: Voice model to speak with. Use `/voices` to list [all options](./docs/voices.md).
 - `<message>`: Message to speak.

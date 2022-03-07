@@ -3,7 +3,7 @@
 const { writeFileSync } = require("fs");
 const fetch = require("node-fetch");
 
-const { getVoiceList } = require("../src/shared/fakeyou.js");
+const { getVoiceList } = require("../src/shared/fakeYou.js");
 
 /*
   Name: formatModel(Array model): String

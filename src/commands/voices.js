@@ -3,7 +3,7 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
 const { MessageActionRow, MessageButton, MessageEmbed } = require("discord.js");
 
-const { getVoiceList } = require("../shared/fakeyou.js");
+const { getVoiceList } = require("../shared/fakeYou.js");
 const maxPerPage = 25;
 
 function generateEmbed(voiceList, user, page, pageCount) {

@@ -7,10 +7,10 @@ const { Client, Intents } = require("discord.js");
 const { REST } = require("@discordjs/rest");
 const { readdirSync } = require("fs");
 
-const { updateStatus } = require("./src/shared/utility.js");
+const { updateStatus } = require("./src/shared/updateStatus.js");
 const { botToken } = require("./config.json");
 
-const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
+const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_VOICE_STATES] });
 client.commands = new Map();
 
 const commands = [];

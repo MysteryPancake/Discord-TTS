@@ -8,7 +8,7 @@ const { promisify } = require("util");
 const { unlink } = require("fs");
 const fetch = require("node-fetch");
 
-const { requestSpeech, getVoiceList } = require("../shared/fakeyou.js");
+const { requestSpeech, getVoiceList } = require("../shared/fakeYou.js");
 
 /*
   Name: requestSpeechFile(String voice, String message): String
@@ -78,7 +78,7 @@ module.exports = {
 		await interaction.reply(`Requesting speech from \`${voiceInfo.name}\`, please wait...`).catch(console.error);
 		requestSpeechFile(voiceInfo.id, message).then(async(filePath) => {
 
-			// Send file as a message attachment
+			// Send temporary file as message attachment
 			await interaction.editReply({
 				files: [{
 					attachment: filePath,

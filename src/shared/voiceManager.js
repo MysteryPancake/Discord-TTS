@@ -59,11 +59,11 @@ module.exports.leaveVoice = (interaction) => {
 }
 
 /*
-  Name: playVoice(Object interaction, Object voiceInfo, String message)
+  Name: playVoice(Object interaction, String commandName, Object voiceInfo, String message)
   Description: Requests and plays speech over voice chat, assuming raw format
   Returns: None
 */
-module.exports.playVoice = async(interaction, voiceInfo, message) => {
+module.exports.playVoice = async(interaction, commandName, voiceInfo, message) => {
 
 	const connection = getVoiceConnection(interaction.guildId);
 	if (!connection) {
@@ -86,19 +86,19 @@ module.exports.playVoice = async(interaction, voiceInfo, message) => {
 	requestSpeech(voiceInfo.id, message).then(url => {
 
 		// Send new message to avoid 15 minute interaction expiry time
-		interaction.channel.send(`${interaction.user}\n\`${voiceInfo.name}\` says \"${message}\" in voice chat!`).catch(console.error);
+		interaction.channel.send(`${interaction.user} \`${commandName}\` says \"${message}\" in voice chat!`).catch(console.error);
 		const resource = createAudioResource(url, {
 			inputType: StreamType.Raw
 		});
 		player.play(resource);
 
 		resource.playStream.on("error", error => {
-			interaction.channel.send(`${interaction.user}\nFailed to play speech! Here's the link instead:\n${url}\n\nMessage was \"${message}\"`).catch(console.error);
+			interaction.channel.send(`${interaction.user} Failed to play speech! Here's the link instead:\n${url}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 
 	}).catch(error => {
-		interaction.channel.send(`${interaction.user}\n${error}\n\nMessage was \"${message}\"`).catch(console.error);
+		interaction.channel.send(`${interaction.user} ${error}\n\nMessage was \"${message}\"`).catch(console.error);
 		console.error(error);
 	});
 }

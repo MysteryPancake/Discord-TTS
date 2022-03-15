@@ -84,7 +84,7 @@ module.exports = {
 
 			// Send temporary file in new message to avoid 15 minute interaction expiry time
 			await interaction.channel.send({
-				content: `${interaction.user}\n\`${voiceInfo.name}\` says \"${message}\"`,
+				content: `${interaction.user} \`${voice}\` says \"${message}\"`,
 				files: [{
 					attachment: filePath,
 					name: `${message.replace(/\W/g, "_")}.wav`
@@ -98,7 +98,7 @@ module.exports = {
 			});
 
 		}).catch(error => {
-			interaction.channel.send(`${interaction.user}\n${error}\n\nMessage was \"${message}\"`).catch(console.error);
+			interaction.channel.send(`${interaction.user} ${error}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 	}

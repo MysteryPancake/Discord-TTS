@@ -40,6 +40,6 @@ module.exports = {
 		}
 
 		// Request, poll and attempt to play speech file
-		playVoice(interaction, voiceInfo, message);
+		playVoice(interaction, voice, voiceInfo, message);
 	}
 };

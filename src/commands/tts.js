@@ -75,12 +75,16 @@ module.exports = {
 			return;
 		}
 
-		await interaction.reply(`Requesting speech from \`${voiceInfo.name}\`, please wait...`).catch(console.error);
+		await interaction.reply({
+			content: `Requesting speech from \`${voiceInfo.name}\`, please wait...`,
+			ephemeral: true
+		}).catch(console.error);
+
 		requestSpeechFile(voiceInfo.id, message).then(async(filePath) => {
 
-			// Send temporary file as message attachment
-			await interaction.editReply({
-				content: `\`${voiceInfo.name}\` says \"${message}\"`,
+			// Send temporary file in new message to avoid 15 minute interaction expiry time
+			await interaction.channel.send({
+				content: `${interaction.user}\n\`${voiceInfo.name}\` says \"${message}\"`,
 				files: [{
 					attachment: filePath,
 					name: `${message.replace(/\W/g, "_")}.wav`
@@ -94,7 +98,7 @@ module.exports = {
 			});
 
 		}).catch(error => {
-			interaction.editReply(`${error}\n\nMessage was \"${message}\"`).catch(console.error);
+			interaction.channel.send(`${interaction.user}\n${error}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 	}

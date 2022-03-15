@@ -77,24 +77,28 @@ module.exports.playVoice = async(interaction, voiceInfo, message) => {
 		return;
 	}
 
-	await interaction.reply(`Requesting speech from \`${voiceInfo.name}\`, please wait...`).catch(console.error);
+	await interaction.reply({
+		content: `Requesting speech from \`${voiceInfo.name}\`, please wait...`,
+		ephemeral: true
+	}).catch(console.error);
 
 	// Launch speech request and poll until completion
 	requestSpeech(voiceInfo.id, message).then(url => {
 
-		interaction.editReply(`\`${voiceInfo.name}\` says \"${message}\"`).catch(console.error);
+		// Send new message to avoid 15 minute interaction expiry time
+		interaction.channel.send(`${interaction.user}\n\`${voiceInfo.name}\` says \"${message}\" in voice chat!`).catch(console.error);
 		const resource = createAudioResource(url, {
 			inputType: StreamType.Raw
 		});
 		player.play(resource);
 
 		resource.playStream.on("error", error => {
-			interaction.editReply(`Failed to play speech! Here's the link instead:\n${url}\n\nMessage was \"${message}\"`).catch(console.error);
+			interaction.channel.send(`${interaction.user}\nFailed to play speech! Here's the link instead:\n${url}\n\nMessage was \"${message}\"`).catch(console.error);
 			console.error(error);
 		});
 
 	}).catch(error => {
-		interaction.editReply(`${error}\n\nMessage was \"${message}\"`).catch(console.error);
+		interaction.channel.send(`${interaction.user}\n${error}\n\nMessage was \"${message}\"`).catch(console.error);
 		console.error(error);
 	});
 }

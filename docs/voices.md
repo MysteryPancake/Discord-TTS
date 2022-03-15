@@ -14,13 +14,12 @@
 - `dbznarratorfuni`: DBZ Narrator
 - `dbzwta`: World Tournament Announcer
 - `friezachris`: Frieza (Chris Ayres)
-- `friezalatin`: Frieza (Gerardo Reyero)
+- `friezalatin`: Frieza (Español)
 - `friezalinda`: Frieza (Linda Young)
 - `friezapauline`: Frieza (Pauline Newstone)
 - `future-trunks`: Future Trunks (Modern)
 - `gohan`: Gohan (Modern, Kyle Herbert)
 - `gohankyleclassic`: Gohan (Classic, Kyle Herbert)
-- `gokulatin`: Son Goku (Mario Castañeda)
 - `gokusean`: Son Goku (Sean Schemmel)
 - `imperfectcell`: Imperfect Cell
 - `kale`: Kale (Dragonball Super)
@@ -30,7 +29,6 @@
 - `perfectcell`: Perfect Cell (Dameon Clarke)
 - `piccolo`: Piccolo (Dragonball/Z/GT)
 - `vegetabrian`: Vegeta (Brian Drummond)
-- `vegetalatin`: Vegeta (Rene Garcia)
 - `vegetamodern`: Vegeta (Chris Sabat, Modern)
 - `videl`: Videl
 - `yamcha`: Yamcha
@@ -142,6 +140,7 @@
 - `pepper-ann`: Pepper Ann (Kathleen Wilhoite)
 - `pumbaa`: Pumbaa (The Lion King, Ernie Sabella)
 - `rafiki`: Rafiki (The Lion King, Robert Guillaume)
+- `randall-boggs`: Randall Boggs (Disney Infinity 1.0) (Peter Kelamis)
 - `scar`: Scar
 - `snow-white`: Snow White (Disney, Mary Kay Bergman)
 
@@ -343,6 +342,7 @@
 ### Space Ghost
 - `brak`: Brak (Space Ghost, Andy Merrill)
 - `space-ghost`: Space Ghost (Space Ghost, George Lowe)
+- `spaceghost1089`: Space Ghost
 - `zorak`: Zorak (Space Ghost, C. Martin Croker)
 
 ### SpongeBob SquarePants
@@ -378,7 +378,7 @@
 - `spongebob-squarepants`: SpongeBob SquarePants (1997⁠–⁠2002)
 - `spongebob-squarepants2`: SpongeBob SquarePants (Season 1)
 - `spongebob2`: SpongeBob (Uncle Al)
-- `spongebob3`: SpongeBob SquarePants (2003⁠–⁠present)
+- `spongebobsmless`: SpongeBob SquarePants (2003⁠⁠–⁠present)
 - `squidward-fccd`: Squidward FCCD
 - `squidward-tentacles`: Squidward Tentacles (SpongeBob SquarePants, Rodger Bumpass)
 - `squidward-tenticles`: Squidward Tenticles (USE JACOBLENSTAR'S MODEL)
@@ -393,7 +393,7 @@
 - `five`: Five
 - `homestar-runner`: Homestar Runner
 - `king-of-town`: King of Town (Homestar Runner, Mike Chapman)
-- `little-apple`: Little Apple (Annoying Orange, Dane Boedigheimer)
+- `little-apple`: Little Apple (Dane Boedigheimer)
 - `loona`: Loona [Helluva Boss]
 - `mark-the-video-game-agent`: Mark the Video Game Agent (Dorkly, Brian Murphy)
 - `marzipan`: Marzipan (Homestar Runner, Melissa Palmer)
@@ -494,6 +494,7 @@
 
 ### Eddsworld
 - `edd2`: Edd (Tim Hautekiet)
+- `eduardo`: Eduardo (Chris O'Neill)
 - `matt`: Matt (Matt Lobster)
 - `tom`: Tom (Thomas Ridgewell)
 - `tord`: Tord (Jamie Spicer Lewis)
@@ -566,7 +567,7 @@
 ### Family Guy
 - `lois-griffin`: Lois Griffin (Family Guy, Alex Borstein)
 - `meg-griffin`: Meg Griffin (Mila Kunis)
-- `peter-griffin`: Peter Griffin (Juan Perucho, Castillian Spanish)
+- `peter-griffin`: Peter Griffin (Castillian Spanish)
 - `peter-griffin2`: Peter Griffin (Modern)
 
 ### Courage the Cowardly Dog
@@ -583,6 +584,7 @@
 ### Rick and Morty
 - `rick-sanchez`: Rick Sanchez
 - `rick-sanchez2`: Rick Sanchez (Brazilian Portuguese)
+- `ricksan1089`: Rick Sanchez
 
 ### American Dad!
 - `stan-smith`: Stan Smith (Seth McFarlane)
@@ -625,37 +627,45 @@
 - `the-joker`: The Joker (Richard Epcar)
 
 ## Distinctive Voices
+- `doc-tops`: Doc Tops (Dr. Luca Merlini)
 - `gilbert-gottfried`: Gilbert Gottfried
 - `james-earl-jones`: James Earl Jones
+- `joe-pesci`: Joe Pesci
 - `judi-dench`: Judi Dench
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `morgan-freeman`: Morgan Freeman (trained by justinjohn-03)
 - `rc-bray`: R.C Bray
 - `robertstackum`: Unsolved Mysteries Narrator (Robert Stack)
 - `samuel-l-jackson`: Samuel L. Jackson
 - `shohreh-aghdashloo`: Shohreh Aghdashloo
+- `spaceghost1089`: Space Ghost
 
 ## Español / Spanish 🇪🇸 🇲🇽 🇨🇴 🇦🇷 ...
 - `bart-simpson3`: Bart Simpson (The Simpsons, Latin American Spanish) (Claudia Motta)
 - `bob0esponja`: Bob Esponja (SpongeBob SquarePants, Latin American Spanish)
 - `chiquito-de-la-calzada`: Chiquito de la Calzada (Castillian Spanish, ARPABET support)
 - `coscu`: Coscu (Streamer, Latin American Spanish)
+- `doc-tops`: Doc Tops (Dr. Luca Merlini)
+- `doki`: Doki (Iván Filio) (Latin American Spanish)
 - `drake0es`: Drake Bell (Drake and Josh, Latin American Spanish)
 - `el-chavo-del-8-animado`: El Chavo del 8 animado (Latin American Spanish)
-- `fernanfloo`: Fernanfloo (Fernando Flores, Youtubers)
-- `friezalatin`: Frieza (Gerardo Reyero)
+- `fernanfloo`: Fernanfloo (Latinamerican Spanish, Youtubers)
+- `friezalatin`: Frieza (Español)
 - `glados0es`: GLaDOS (Portal, Castillian Spanish)
-- `gokulatin`: Son Goku (Mario Castañeda)
 - `homero-simpson`: Homero Simpson (Homer Simpson Latin American Spanish)
-- `homero-simpson2`: Homero Simpson (Voz de la 4 temporada (Humberto Velez) Beta1
+- `homero-simpson2`: Homero Simpson (Voz de la 4 temporada) Beta1
 - `jordi-cruz`: Jordi Cruz (Castillian Spanish, ARPAbet support)
 - `jordi-wild`: Jordi Wild (El Rincón de Giorgio)
+- `locutor-argento-1a`: Locutor argento 1A
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `narrador`: Narrador (Latin American Spanish)
 - `paco-bravo`: Paco Bravo (Castillian Spanish, ARPAbet support)
-- `peter-griffin`: Peter Griffin (Juan Perucho, Castillian Spanish)
+- `peter-griffin`: Peter Griffin (Castillian Spanish)
+- `super-smash-bros-ultimate-announcer2`: Super Smash Bros Ultimate Announcer (Español)
 - `toretto0es`: Toretto (Fast and Furious, Latin American Spanish)
 - `vader0es`: Darth Vader (Español)
-- `valt-aoi`: Valt Aoi (Beyblade Burst, Roberto Rodríguez, Castillian Spanish)
-- `vegetalatin`: Vegeta (Rene Garcia)
+- `valt-aoi`: Valt Aoi (Beyblade Burst, Castillian Spanish)
+- `yodalatin`: Yoda (Español)
 
 ## Video Games
 
@@ -676,6 +686,7 @@
 - `mario4`: Mario*
 - `oogtar`: Oogtar (Super Mario World, John Stocker)
 - `princess-peach`: Princess Peach
+- `toad`: Toad (Super Mario, Jen Taylor)
 - `wario`: Wario (Super Mario, Charles Martinet)
 
 ### Hitman
@@ -695,6 +706,7 @@
 ### Xbox
 - `alan-wake`: Alan Wake (Matthew Porretta)
 - `alice-wake`: Alice Wake (Brett Madden)
+- `kyle-crane-from-dying-light`: Kyle Crane from Dying Light (Roger Craig Smith)
 - `sam-lake`: Sam Lake (Alan Wake Writer)
 - `sarah-breaker`: Sarah Breaker (Alan Wake) (Jessica Alexandra)
 
@@ -738,6 +750,7 @@
 - `dr-robotnik`: Dr. Robotnik (Adventures of Sonic the Hedgehog, Long John Baldry)
 - `espio-the-chameleon`: Espio the Chameleon (David Wills)
 - `grounder`: Grounder (Adventures of Sonic the Hedgehog, Gary Chalk)
+- `jet-the-hawk`: Jet The Hawk (Michael Yurchak)
 - `knuckles-the-echidna`: Knuckles the Echidna (Dave B. Mitchell)
 - `knuckles-the-echidna2`: Knuckles the Echidna (Travis Willingham)
 - `maria-robotnik`: Maria Robotnik
@@ -748,20 +761,21 @@
 - `scratch`: Scratch (Adventures of Sonic the Hedgehog, Phil Hayes)
 - `shadow-the-hedgehog`: Shadow The Hedgehog (Jason Griffith)
 - `shadow-the-hedgehog2`: Shadow the Hedgehog (Kirk Thornton)
+- `sonic`: Sonic the Hedgehog (‎voiced by: Jason Griffith)
 - `sonic-the-hedgehog`: Sonic The Hedgehog (2000s era)
 - `sonic-the-hedgehog2`: Sonic the Hedgehog (Adventures of Sonic the Hedgehog, Jaleel White)
 - `sonic-the-hedgehog3`: Sonic The Hedgehog (Ben Schwartz)
-- `sonic-the-hedgehog5`: Sonic the Hedgehog (Roger Craig Smith)
-- `sonic-the-hedgehog6`: Sonic The Hedgehog (Ryan Drummond)
+- `sonic-the-hedgehog4`: Sonic the Hedgehog (Roger Craig Smith)
+- `sonic-the-hedgehog5`: Sonic The Hedgehog (Ryan Drummond)
 - `sonic-the-hedgehog7`: Sonic the Hedgehog (Sonic OVA, Martin Burke)
 - `sonic-the-hedgehog8`: Sonic the Hedgehog (Sonic's Schoolhouse, Meg Inglima)
-- `sonic22`: Sonic The Hedgehog (Jason Griffith)
-- `sonic3`: Sonic the Hedgehog (‎voiced by: Jason Griffith)
+- `sonic2`: Sonic The Hedgehog (Jason Griffith)
 - `tails`: Tails (Adventures of Sonic the Hedgehog, Christopher Ivan Welch)
 - `tails0colleen`: Tails (Sonic The Hedgehog. Colleen O'Shaughnessey)
 - `tails3`: Tails (Kate Higgins)
 - `tails4`: Tails (Sonic Adventure, Corey Bringus)
 - `tails5`: Tails (Sonic Heroes, William Corkery)
+- `wave-the-swallow`: Wave the Swallow (Kate Higgins)
 
 #### Adventures of Sonic the Hedgehog
 - `coconuts`: Coconuts (Adventures of Sonic the Hedgehog, Ian James Corlett)
@@ -830,6 +844,7 @@
 - `garrett2`: Garrett (v0.01) (Thief 1-2) (Voiced by: Stephen L. Russell)
 - `globox`: Globox (Hoodlum Havoc)
 - `guybrush-threepwood`: Guybrush Threepwood (Dominic Armato, Monkey Island 1 SE)
+- `guybrush-threepwood2`: Guybrush Threepwood (Dominic Armato, Tales of Monkey Island)
 - `its-a-bully`: It's A Bully
 - `jc-denton`: JC Denton
 - `josh-schmitty-schmitstinstein`: Josh 'Schmitty' Schmitstinstein (trained by justinjohn-03)
@@ -848,7 +863,7 @@
 - `orson`: Orson (Pac-Man World 3, Stuart Milligan)
 - `outriders-male-character`: OUTRIDERS Male Character (voiced by Dusan Dukic)
 - `pac-man`: Pac-Man (Erica Mendez)
-- `phoenix-wright`: Phoenix Wright (Ultimate Marvel vs. Capcom 3, Sam Riegel)
+- `phoenix`: Phoenix Wright (Ultimate Marvel vs. Capcom 3, Sam Riegel)
 - `playtime`: Playtime (dataset by COOLphonix)
 - `pork-bun-guy`: Pork Bun Guy
 - `postal-dude`: Postal Dude (Rick Hunter)
@@ -901,6 +916,23 @@
 - `sir-mix-a-lot`: Sir Mix-A-Lot
 - `slippy-toad`: Slippy Toad (Star Fox 64, Lyssa Browne)
 
+### Playstation
+- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
+- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
+- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
+- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
+- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
+- `gabe-logan`: Gabe Logan (Syphon Filter)
+- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
+- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
+- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
+- `kyle-crane-from-dying-light`: Kyle Crane from Dying Light (Roger Craig Smith)
+- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
+- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
+- `planetside-2-female`: PlanetSide 2 Female
+- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
+- `prince-of-persia`: Prince of Persia (Yuri Lowenthal)
+
 ### PaRappa The Rapper
 - `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
 - `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
@@ -915,22 +947,6 @@
 - `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
 - `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
 
-### Playstation
-- `boxy-boy`: Boxy Boy (PaRappa the Rapper, Freedom Bremner)
-- `captain-fussenpepper`: Captain Fussenpepper (PaRappa the Rapper, Ryu Watabe)
-- `cheap-cheap-the-cooking-chicken`: Cheap Cheap the Cooking Chicken (PaRappa the Rapper, Michelle Burks)
-- `chop-chop-master-onion`: Chop Chop Master Onion (PaRappa the Rapper, Ryu Watabe)
-- `colonel-noodle`: Colonel Noodle (PaRappa the Rapper, Andrew Alonzo)
-- `gabe-logan`: Gabe Logan (Syphon Filter)
-- `guru-ant`: Guru Ant (PaRappa the Rapper, Dean Bowman)
-- `instructor-mooselini`: Instructor Mooselini (PaRappa the Rapper, Saundra Williams)
-- `joe-chin`: Joe Chin (PaRappa the Rapper, Ryu Watabe)
-- `parappa-the-rapper`: PaRappa the Rapper (Dred Foxx)
-- `pj-berri`: PJ Berri (PaRappa the Rapper, Christian Armstead)
-- `planetside-2-female`: PlanetSide 2 Female
-- `prince-fleaswallow`: Prince Fleaswallow (PaRappa the Rapper, Lenky Don)
-- `prince-of-persia`: Prince of Persia (Yuri Lowenthal)
-
 ### Fallout
 - `caesar`: Caesar (Fallout: New Vegas)
 - `colonel-autumn`: Colonel Autumn (Fallout 3)
@@ -941,6 +957,7 @@
 
 ### Street Fighter
 - `cammy`: Cammy White
+- `chun-li`: Chun-Li (Laura Bailey)
 - `dan-hibiki`: Dan Hibiki
 - `rainbow-mika`: Rainbow Mika
 - `ryusf`: Ryu (Street Fighter. Kyle Herbert)
@@ -984,6 +1001,13 @@
 - `cd-i-link`: CD-I Link (Jeffery Rath)
 - `cd-i-zelda`: CD-I Zelda (Bonnie Jean Wilbur)
 - `morshu`: Morshu (A Broken Version)
+
+### Danganronpa
+- `celestia-ludenberg`: Celestia Ludenberg (Voiced by: Marieve Herington)
+- `fuyuhiko-kuzuryu`: Fuyuhiko Kuzuryu (Aaron Dismuke)
+- `gonta-gokuhara`: Gonta Gokuhara (Kaiji Tang)
+- `haiji`: Haiji (Danganronpa) (Trained by VocaZone)
+- `miu-iruma`: Miu Iruma (Danganronpa) (Trained by VocaZone)
 
 ### Resident Evil
 - `chris-redfield`: Chris Redfield (Roger Craig Smith)
@@ -1045,6 +1069,7 @@
 - `smash-64-announcer2`: Smash 64 Announcer (Finally!)
 - `super-smash-bros-64-announcer`: Super Smash Bros 64 Announcer
 - `super-smash-bros-ultimate-announcer`: Super Smash Bros Ultimate Announcer
+- `super-smash-bros-ultimate-announcer2`: Super Smash Bros Ultimate Announcer (Español)
 
 ### Megaman
 - `dr-wily`: Dr. Wily (Mega Man Powered Up)
@@ -1062,13 +1087,8 @@
 
 ### Five Nights at Freddy's
 - `foxy`: Foxy
+- `montgomery-gator`: Montgomery Gator (Five Nights At Freddy's) (Retro Mario)
 - `roxanne-wolf`: Roxanne Wolf (FNAF: Security Breach) (Michelle Moss)
-
-### Danganronpa
-- `fuyuhiko-kuzuryu`: Fuyuhiko Kuzuryu (Aaron Dismuke)
-- `gonta-gokuhara`: Gonta Gokuhara (Kaiji Tang)
-- `haiji`: Haiji (Danganronpa) (Trained by VocaZone)
-- `miu-iruma`: Miu Iruma (Danganronpa) (Trained by VocaZone)
 
 ### Yakuza Series 
 - `goro-majima`: Goro Majima (Mark Hamill)
@@ -1124,7 +1144,7 @@
 - `zephyr`: Zephyr (Tornado Outbreak)
 
 ### Capcom
-- `phoenix-wright`: Phoenix Wright (Ultimate Marvel vs. Capcom 3, Sam Riegel)
+- `phoenix`: Phoenix Wright (Ultimate Marvel vs. Capcom 3, Sam Riegel)
 
 ### Defense of the Ancients (DOTA)
 - `queenofpain`: Queen Of Pain Arcana (DOTA 2)
@@ -1142,9 +1162,6 @@
 - `sora`: Sora (Young)
 - `xemnas`: Xemnas
 
-## Harry Potter
-- `lord-voldemort`: Lord Voldemort (Voiced by: Rupert Degas)
-
 ## Internet Famous
 
 ### Youtubers
@@ -1161,6 +1178,7 @@
 - `coryxkenshin`: CoryxKenshin (Cory Williams)
 - `dantdm`: DanTDM (Daniel Robert Middleton)
 - `dashiexp`: DashieXP (Charlie Guzman)
+- `doc-tops`: Doc Tops (Dr. Luca Merlini)
 - `dr-todd-grande`: Dr. Todd Grande
 - `dream`: Dream (YouTuber)
 - `dream2`: Dream (YouTuber) (ARPAbet enabled)
@@ -1190,6 +1208,7 @@
 - `mrbeast`: MrBeast
 - `mutahar`: Mutahar
 - `nando-moura`: Nando Moura
+- `nilered`: NileRed
 - `ninja`: Ninja
 - `nostalgia-critic`: Nostalgia Critic (Retro)
 - `plainrock124`: Plainrock124 (King Liang)
@@ -1235,6 +1254,7 @@
 #### Animation
 - `bojack-horseman2`: Bojack Horseman (Brazilian Portuguese)
 - `theodd1sout`: TheOdd1sOut
+- `wolfychu`: Wolfychu (Kayleigh Smyth)
 - `zone-tan`: Zone-tan (ZONE-sama)
 
 #### Gaming
@@ -1248,6 +1268,7 @@
 - `felix-pewdiepie-kjellberg`: Felix "Pewdiepie" Kjellberg
 - `flamingo`: Flamingo
 - `jacksepticeye`: JackSepticEye (Sean McLoughlin)
+- `kyle-crane-from-dying-light`: Kyle Crane from Dying Light (Roger Craig Smith)
 - `linkara`: Linkara (Lewis Jeffrey Lovhaug)
 - `markiplier`: Markiplier (Mark Edward Fischbach)
 - `moistcr1tikal`: moistcr1tikal
@@ -1283,6 +1304,7 @@
 ## Meme Voices
 - `all-the-small-things-but-its-spongebob-guy`: All The Small Things But It's SpongeBob Guy
 - `billy-mays`: Billy Mays
+- `cmlord`: C_mlord
 - `dr-phil-mcgraw`: Dr. Phil McGraw
 - `gilbert-gottfried`: Gilbert Gottfried
 - `giorgio-a-tsoukalos`: Giorgio A. Tsoukalos
@@ -1298,15 +1320,22 @@
 
 ### Action
 - `arnoldschmov`: Arnold Schwarzenegger (Movies)
+- `kyle-crane-from-dying-light`: Kyle Crane from Dying Light (Roger Craig Smith)
 - `mr-lunt2`: Mr. Lunt (Late 90s-2001)
 
 ### Horror
 - `chucky`: Chucky (Childs Play)
+- `doc-tops`: Doc Tops (Dr. Luca Merlini)
 - `jigsaw`: Jigsaw (Saw franchise) (Voiced by: Tobin Bell)
 - `pamela-voorhees`: Pamela Voorhees
 
 ### Drama
 - `gunhartman`: Gunnery Hartman
+- `joe-pesci`: Joe Pesci
+- `robert-deniro`: Robert DeNiro
+
+### Fantasy
+- `lord-voldemort`: Lord Voldemort (Voiced by: Rupert Degas)
 
 ## Musicians
 - `george-harrison`: George Harrison
@@ -1314,6 +1343,7 @@
 - `greg-page`: Greg Page
 - `john-lennon`: John Lennon (speaking)
 - `kendrick-lamar`: Kendrick Lamar (Rapper)
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `paul-mccartney`: Paul McCartney
 - `ringo-starr`: Ringo Starr
 - `weirdal`: "Weird Al" Yankovic
@@ -1417,9 +1447,6 @@
 - `robocop`: RoboCop (Brazilian Portuguese)
 - `seu-madruga`: Seu Madruga
 - `shao-kahn`: Shao Kahn (Brazilian Portuguese)
-- `sonic`: Sonic - Sonic Boom (Manolo Rey)
-- `sonic-the-hedgehog4`: Sonic The Hedgehog (Manolo Rey)(Portuguese Brazil)
-- `sonic2`: Sonic - Sonic X (Manolo Rey)
 - `wally-walrus`: Wally Walrus (Leôncio) (Brazilian Portuguese)
 - `wendel-bezerra`: Wendel Bezerra (Brazilian Portuguese)
 - `william-bonner`: William Bonner
@@ -1431,6 +1458,7 @@
 - `adam-driver`: Adam Driver
 - `alan-bennett`: Alan Bennett
 - `alan-rickman`: Alan Rickman
+- `alison-brie`: Alison Brie
 - `andrewgarfield`: Andrew Garfield
 - `arnold-schwarzenegger`: Arnold Schwarzenegger
 - `arnoldschmov`: Arnold Schwarzenegger (Movies)
@@ -1462,9 +1490,11 @@
 - `john-hurt`: John Hurt
 - `johnnycashsing`: Johnny Cash (Singing)
 - `judi-dench`: Judi Dench
+- `kyle-crane-from-dying-light`: Kyle Crane from Dying Light (Roger Craig Smith)
 - `leonard-nimoy`: Leonard Nimoy
 - `liam-neeson`: Liam Neeson
 - `madison-iseman`: Madison Iseman
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `michael-rosen`: Michael Rosen
 - `michael-rosen2`: Michael Rosen (calm)
 - `michelle-obama`: Michelle Obama
@@ -1512,6 +1542,7 @@
 - `albert-einstein`: Albert Einstein
 - `bill-nye`: Bill Nye
 - `carl-sagan`: Carl Sagan
+- `elon-musk`: Elon Musk
 - `neil-degrasse-tyson`: Neil deGrasse Tyson
 - `sir-david-attenborough`: Sir David Attenborough
 
@@ -1538,6 +1569,7 @@
 - `howie-mandel`: Howie Mandel
 - `jerry-seinfeld`: Jerry Seinfeld
 - `john-oliver`: John Oliver
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `patton-oswalt`: Patton Oswalt (trained by justinjohn-03)
 - `steve-harvey`: Steve Harvey
 
@@ -1555,6 +1587,7 @@
 
 ## Robot Voices
 - `android-tts`: Android TTS
+- `battledroids`: B1 Battle Droids
 - `c-3po`: C-3PO (Anthony Daniels)
 - `hal-9000`: HAL 9000 (not trained by me, I just submitted it)
 - `hal-90002`: HAL 9000 (WaveGlow version)
@@ -1574,6 +1607,7 @@
 - `battledroids`: B1 Battle Droids
 - `boba-fett`: Boba Fett
 - `c-3po`: C-3PO (Anthony Daniels)
+- `canderous-ordo`: Canderous Ordo (John Cygan)
 - `carth-onasi`: Carth Onasi (Raphael Sbarge)
 - `clonetrooper`: Clone Trooper
 - `clonewarsnarrator`: Star Wars Clone Wars Narrator
@@ -1584,6 +1618,7 @@
 - `darth-vader`: Darth Vader (Hifigan)
 - `darth-vader2`: Darth Vader (Waveglow)
 - `grievous`: General Grievous
+- `hk-47-unfiltered`: HK-47, unfiltered (Kristoffer Tabori)
 - `kreia`: Kreia
 - `mace-windu`: Mace Windu (TC Carson)
 - `obiwancw`: Obi Wan Kenobi (Clone Wars)
@@ -1592,6 +1627,7 @@
 - `trask-ulgo`: Trask Ulgo
 - `vader0es`: Darth Vader (Español)
 - `yoda`: Yoda
+- `yodalatin`: Yoda (Español)
 
 ### Star Trek
 - `george-takei`: George Takei
@@ -1667,6 +1703,7 @@
 - `ed-sullivan`: Ed Sullivan
 - `giorgio-a-tsoukalos`: Giorgio A. Tsoukalos
 - `gordon-ramsay`: Gordon Ramsay
+- `jordi-cruz`: Jordi Cruz (Castillian Spanish, ARPAbet support)
 - `keith-cheggers-chegwin`: Keith "Cheggers" Chegwin
 - `paula-deen`: Paula Deen
 - `robert-stack2`: Robert Stack (Robert Stack)
@@ -1712,8 +1749,10 @@
 - `johnny-gilbert`: Johnny Gilbert (trained by justinjohn-03)
 - `jojo-offerman`: JoJo Offerman (trained by justinjohn-03)
 - `kevin-harlan`: Kevin Harlan
+- `marcos-mundstock`: Marcos Mundstock (Les Luthiers)
 - `michael-buffer`: Michael Buffer (trained by justinjohn-03)
 - `morgan-freeman`: Morgan Freeman (trained by justinjohn-03)
+- `paco-bravo`: Paco Bravo (Castillian Spanish, ARPAbet support)
 - `rich-fields`: Rich Fields (trained by justinjohn-03)
 - `thegrinch`: The Grinch (Boris Karloff)
 
@@ -1765,6 +1804,7 @@
 - `alfred-hitchcock2`: Alfred Hitchcock (ARPAbet support)
 - `alice`: Alice
 - `allison-angel`: Allison Angel (Bendy and the Ink Machine)
+- `amitie`: Amitie (Puyo Puyo)
 - `amity-blight`: Amity Blight (Mae Whitman)
 - `anarchist`: Anarchist (Counter Strike Global Offensive)
 - `anger`: Anger (Disney Infinity)
@@ -1772,9 +1812,11 @@
 - `argyle-starshine`: Argyle Starshine (My Little Pony:A New Generation)
 - `austin`: Austin (TheMaskedChris)
 - `baby-alive-real-surprises`: Baby Alive Real Surprises (2012)
-- `barack-obama2`: Barack Obama (aggressive, speech)
+- `barack-obama`: Barack Obama (aggressive, speech)
 - `baxter`: Baxter (Gutterball Series)
 - `baymax`: Baymax (Disney Infinity)
+- `bejeweled-2`: Bejeweled 2 (or 1) Announcer
+- `bejeweled-3-announcer`: Bejeweled 3 Announcer
 - `ben-kenobi`: Ben Kenobi (Stephen Stanton) v1
 - `big`: Big
 - `bill-cipher`: Bill Cipher (Gravity Falls)
@@ -1808,12 +1850,13 @@
 - `corykenshin`: CoryKenshin(190Epoch)
 - `corykenshin2`: CoryKenshin(266Epochs)
 - `counter-strike-16-announcer`: Counter Strike 1.6 Announcer
+- `counter-strike-16-announcer2`: Counter Strike 1.6 Announcer
+- `cristina-fernandez-de-kirchner`: Cristina Fernández de Kirchner (Ex Presidente de Argentina)
 - `david-cross`: David Cross
 - `david-seville`: David Seville (Ross Bagdasarian Sr.)
 - `diesel-10`: Diesel 10
-- `doc-tops`: Doc Tops
 - `dr-hans-volter`: Dr. Hans Volter (Killing Floor 2)
-- `dross`: Dross
+- `ea-sports`: EA Sports (Andrew Anthony)
 - `edd`: Edd (Edd Gould)
 - `eight`: Eight
 - `emma`: Emma (27 Women's Day Speech Data) by (yehet)
@@ -1833,6 +1876,8 @@
 - `gazelle-brunson-from-zuzubalandia`: Gazelle Brunson from Zuzubalandia
 - `general-skarr`: General Skarr (Armin Shimerman)
 - `girlfriend`: Girlfriend (Friday Night Funkin)
+- `gospel-bill`: Gospel Bill
+- `grady`: Grady (Aperture Desk Job)
 - `grover`: Grover (Sesame Street, Frank Oz)
 - `grunkle-stan`: Grunkle Stan (Gravity Falls)
 - `gummibar`: Gummibär (Sonja Ball)
@@ -1841,13 +1886,13 @@
 - `helen-mirren2`: Helen Mirren (lovecraft)
 - `henry-stein-protagonist`: Henry Stein protagonist (Bendy and the Ink Machine)
 - `hiro-hamada`: Hiro Hamada (Disney Infinity)
-- `hk-47-unfiltered`: HK-47, unfiltered (Kristoffer Tabori)
 - `hoh-sis-narrator`: HOH SIS Narrator
 - `hungry-pumkin`: Hungry Pumkin
 - `inspector-gadget`: Inspector Gadget (Don Adams)
 - `island-owl-from-animal-mechanicals`: Island Owl From Animal Mechanicals
 - `jboogie`: Jboogie (Jesse Lack)
 - `jboogie-v2`: jboogie V2
+- `jeff-sensei-doss`: Jeff "Sensei" Doss
 - `jeffy`: Jeffy
 - `jellybean-uberduckai`: JellyBean uberduck.ai
 - `jett`: Jett (Shannon Arrum Williams)
@@ -1865,6 +1910,7 @@
 - `junpei-iori`: Junpei Iori
 - `kanan-jarrus`: Kanan Jarrus (Disney Infinity)
 - `kanye-west`: Kanye West (v1)
+- `kara-danvers`: Kara Danvers/SuperGirl (DC Superhero Girls)
 - `katara-siari`: Katara Siari (MikalaD Adams)
 - `knuckles`: Knuckles [Sonic Memes]
 - `krazy-kat`: Krazy Kat
@@ -1879,6 +1925,7 @@
 - `madame-blueberry`: Madame Blueberry
 - `male-senior-asian-guy`: Male Senior Asian Guy
 - `marceline-the-vampire-queen`: Marceline the Vampire Queen
+- `marcos-mundstock-v2`: Marcos Mundstock V2 (Vocal y humorista fallecido de Les Luthiers)
 - `maurice-hall`: Maurice Hall (MEH quality) by (yehet)
 - `max-caulfield`: Max Caulfield (Life Is Strange)
 - `max-caulfield2`: Max Caulfield (Life Is Strange) (Updated)
@@ -1890,12 +1937,14 @@
 - `mike`: Mike
 - `mike-murphy`: Mike Murphy
 - `miles-the-magnificent-memory-machine`: Miles the Magnificent Memory Machine
+- `mopperbot`: Mopperbot
 - `mordecai-heller`: Mordecai Heller (SungWon Cho)
 - `mort`: Mort - Dee Bradley Baker - Madagascar
 - `mouse-fitzgerald`: Mouse Fitzgerald (12 oz. Mouse)
 - `mr-kaz`: Mr. Kaz
 - `mr-lunt`: Mr. Lunt
 - `mrwhosetheboss`: Mrwhosetheboss (Arun Maini)
+- `murfy`: Murfy (Rayman 3: Hoodlum Havoc) (Billy West)
 - `mysterio`: Mysterio (Disney Infinity)
 - `narrator`: Narrator (Mario's Early Years)
 - `narrator3`: Narrator (Stronghold Crusader) (Voiced by: Jay Simon)
@@ -1906,7 +1955,7 @@
 - `patti-smith`: Patti Smith
 - `paul-anka`: Paul Anka
 - `pedro-aznar`: Pedro Aznar
-- `phoenix`: Phoenix (Counter Strike Global Offensive)
+- `phoenix2`: Phoenix (Counter Strike Global Offensive)
 - `pinstripe-potoroo`: Pinstripe Potoroo (CTR, Brendan O'Brien)
 - `pixelartbuilder583`: PixelArtBuilder583
 - `popcorn-from-zuzubalandia`: Popcorn from Zuzubalandia
@@ -1918,10 +1967,12 @@
 - `raphael`: Raphael (Injustice 2)
 - `ray`: Ray (Wii Fit Rhythm Boxing Trainer)
 - `reese-witherspoon`: Reese Witherspoon (ARPAbet supported)
+- `registestmodel`: RegisTestModel
 - `renato-cariani`: Renato Cariani (Brazilian Portuguese)
 - `revolver-ocelot`: Revolver Ocelot (Troy Baker) (ARPAbet Supported)
 - `ring`: Ring (Ring Fit Adventure) (Male)
 - `rocky-cocoa-from-zuzubalandia`: Rocky Cocoa From zuzubalandia
+- `rodney-copperbottom`: Rodney Copperbottom (Robots, Ewan McGregor)
 - `ronald-mcdonald`: Ronald McDonald (McDonald's)
 - `ronan-the-accuser`: Ronan the Accuser (Disney Infinity)
 - `rotd-french-narrator`: ROTD French Narrator
@@ -1931,6 +1982,7 @@
 - `samsung-fun-club-announcer`: Samsung Fun Club Announcer (dataset by COOLphonix)
 - `samsung-fun-club-commercial-announcer`: Samsung Fun Club Commercial Announcer (dataset by COOLphonix)
 - `satya-nadella`: Satya Nadella (Microsoft CEO) (ARPAbet supported)
+- `scooter`: Scooter (Mike Neumann, Tales From The Borderlands)
 - `scrubs`: Scrubs (Ryan Agnew)
 - `sean-bean-wired-test`: Sean Bean Wired Test
 - `sephiroth`: Sephiroth (Final Fantasy) (Voiced by: George Newbern)
@@ -1938,6 +1990,7 @@
 - `shvernaleboog`: Shvernaleboog (Hybrid Model)
 - `sith-warrior`: Sith Warrior - SW:TOR (Mark Bazeley) v1
 - `small`: Small
+- `sonic-the-hedgehog6`: Sonic the hedgehog (Sonic for Hire)
 - `sse`: S.S.E
 - `suzi-hunter`: Suzi Hunter (YT: The Sphere Hunter)
 - `tabi`: Tabi (Friday Night Funkin' Mod)
@@ -1959,6 +2012,7 @@
 - `tttt`: Tttt
 - `tuv`: Tuv (Albert "Bertie" Ruiz)
 - `two`: Two
+- `unikitty`: Unikitty (Tara Strong)
 - `wee-willy`: Wee Willy
 - `weevil-underwood`: Weevil Underwood
 - `weldel-bezerra`: Weldel Bezerra(Brazilian Portuguese)

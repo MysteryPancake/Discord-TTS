@@ -67,8 +67,8 @@ module.exports = {
 			fetchReply: true,
 			ephemeral: true
 		}).catch(console.error);
-		if (!message) return;
 
+		if (!message) return;
 		message.createMessageComponentCollector().on("collect", interact => {
 			// Adjust displayed page
 			page += interact.customId === "prev" ? -1 : 1;
